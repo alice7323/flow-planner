@@ -1,0 +1,19 @@
+{
+  "name": "flowplanner",
+  "version": "1.0.0",
+  "description": "Flexible daily planner web app for P-type personalities",
+  "main": "index.html",
+  "scripts": {
+    "deploy:surge": "surge index.html",
+    "deploy:vercel": "vercel",
+    "deploy:netlify": "netlify deploy --prod"
+  },
+  "keywords": [
+    "planner",
+    "productivity",
+    "web-app",
+    "daily-planner"
+  ],
+  "author": "Your Business",
+  "license": "MIT"
+}
